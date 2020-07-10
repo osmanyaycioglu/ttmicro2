@@ -17,7 +17,7 @@ import com.netflix.discovery.shared.Application;
 import com.training.ttech.feign.IEmployeeRest;
 
 @RestController
-@RequestMapping("org")
+@RequestMapping("/org")
 public class OrganizationRest {
 
     @Autowired
